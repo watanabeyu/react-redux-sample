@@ -1,0 +1,15 @@
+.footer{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background-color:#fff;
+  box-shadow:0 -2px 4px 0 rgba(87, 71, 81, 0.1);
+
+  p{
+    font-size:14px;
+    line-height:60px;
+    height:60px;
+    margin:0;
+    text-align:center;
+  }
+}

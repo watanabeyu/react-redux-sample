@@ -1,0 +1,63 @@
+.header{
+  position:relative;
+  z-index:200;
+  display:flex;
+  align-items:center;
+  height:60px;
+  padding:0 20px;
+  background-color:#fff;
+  box-shadow:0 2px 4px 0 rgba(87, 71, 81, 0.1);
+
+  :global .logo{
+    > a{
+      font-size:18px;
+      line-height:36px;
+      display:block;
+      width:36px;
+      height:36px;
+      text-align:center;
+      color:#000;
+    }
+  }
+
+  :global .title{
+    flex:1 0 auto;
+
+    h2{
+      font-size:18px;
+      font-weight:normal;
+      line-height:28px;
+      overflow:hidden;
+      height:28px;
+      margin:0;
+      text-align:center;
+      white-space:nowrap;
+      text-overflow:ellipsis;
+    }
+  }
+
+  :global .buttons{
+    display:flex;
+    flex:0;
+
+    > div{
+      margin-right:15px;
+
+      > a{
+        font-size:18px;
+        line-height:36px;
+        display:block;
+        width:36px;
+        height:36px;
+        text-align:center;
+        color:#666;
+        border-radius:50%;
+        background-color:#e0e0e0;
+      }
+    }
+
+    > div:last-child{
+      margin-right:0;
+    }
+  }
+}

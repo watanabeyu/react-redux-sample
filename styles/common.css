@@ -1,0 +1,24 @@
+@import url('./normalize.css');
+@import url('./button.css');
+
+:root{
+  /* default */
+  --default-color:#999;
+  --default-hover-color:#bbb;
+  /* primary */
+  --primary-color:#2196f3;
+  --primary-hover-color:#64B5F6;
+  /* success */
+  --success-color:#4caf50;
+  --success-hover-color:#81C784;
+  /* warning */
+  --warning-color:#ff9800;
+  --warning-hover-color:#FFB74D;
+  /* danger */
+  --danger-color:#f44336;
+  --danger-hover-color:#E57373;
+}
+
+body{
+  background-color:#efefef;
+}
